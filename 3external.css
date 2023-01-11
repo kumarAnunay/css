@@ -1,0 +1,20 @@
+h1{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+p{
+    background-color: cyan;
+    color: blueviolet;
+    text-align: justify;
+}
+
+div{
+    background-color: pink;
+}
+
+span{
+    color: wheat;
+    background-color: black;
+}
