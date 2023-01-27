@@ -1,0 +1,89 @@
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <style>
+        .box {
+
+            width: 200px;
+
+            height: 100px;
+
+            margin: 20px;
+
+            background-color: red;
+
+        }
+
+        /* phone and mobile */
+
+        @media (max-width:480px) {
+
+            .box {
+
+                background-color: green;
+
+            }
+
+        }
+
+        /*low resolution tablet and ipad*/
+
+        @media (min-width:481px) and (max-width:767px) {
+
+            .box {
+
+                background-color: gold;
+
+            }
+
+        }
+
+        /*portrait mode tablet and ipad*/
+
+        @media (min-width:768px) and (max-width:1024px) {
+
+            .box {
+
+                background-color: grey;
+
+            }
+
+        }
+
+        /*laptop*/
+
+        @media (min-width:1025px) and (max-width:1280px) {
+
+            .box {
+
+                background-color: indigo;
+
+            }
+
+        }
+
+        /*large screen*/
+
+        @media(min-width:1281px) {
+
+            .box {
+
+                background-color: orange;
+
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="box"></div>
+
+</body>
+
+</html>
