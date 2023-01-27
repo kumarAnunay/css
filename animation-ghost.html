@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ghost Text</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      align-items: center;
+      font-size: 50px;
+      font-weight: 900;
+      font-family: 'Times New Roman', Times, serif;
+      text-shadow: 3px 3px rgb(126, 17, 17);
+      color: rgb(235, 148, 177);
+    }
+    /* designing the text*/
+    li {
+      list-style: none;
+      font-size: 3em;
+      letter-spacing: 5px;
+      transition: 1s;
+    }
+    /*creating the ghost effect*/
+    li:hover {
+      filter: blur(70px);
+      opacity: 0;
+    }
+    li:nth-child(1) {
+      animation-delay: 0.1s;
+    }
+    li:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+    li:nth-child(3) {
+      animation-delay: 0.3s;
+    }
+    li:nth-child(4) {
+      animation-delay: 0.4s;
+    }
+    li:nth-child(5) {
+      animation-delay: 0.5s;
+    }
+    li:nth-child(6) {
+      animation-delay: 0.6s;
+    }
+  </style>
+  <body>
+    <ul>
+      <li>A</li>
+      <li>N</li>
+      <li>U</li>
+      <li>N</li>
+      <li>A</li>
+      <li>Y</li>
+    </ul>
+  </body>
+</html>

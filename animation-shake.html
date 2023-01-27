@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation-shake</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2.5em;
+            color: rgb(4, 110, 4);
+        }
+
+        div:hover h2 {
+            animation-name: shake;
+            animation-duration: 1s;
+        }
+
+        @keyframes shake {
+            0% {
+                transform: translateX(0)
+            }
+
+            25% {
+                transform: translateX(25px);
+            }
+
+            50% {
+                transform: translateX(-25px);
+            }
+
+            100% {
+                transform: translateX(0px);
+            }
+        }
+    </style>
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Shake!</h2>
+    </div>
+</body>
+
+</html>

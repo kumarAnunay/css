@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation-flip</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        div{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        h2{
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        h2:hover{
+            animation-name: rotate;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes rotate {
+            0%{
+                color: blue;
+                transform: rotateY(0deg);
+            }
+
+            25%{
+                color: green;
+                transform: rotateY(90deg);
+            }
+
+            50%{
+                color: red;
+                transform: rotateY(180deg);
+            }
+
+            75%{
+                color: yellow;
+                transform: rotateY(270deg);
+            }
+
+            100%{
+                color: palevioletred;
+                transform: rotateY(360deg);
+            }
+        }
+
+
+        /* @keyframes rotate {
+            0%{
+                color: blue;
+                transform: rotateX(0deg);
+            }
+
+            25%{
+                color: green;
+                transform: rotateX(90deg);
+            }
+
+            50%{
+                color: red;
+                transform: rotateX(180deg);
+            }
+
+            75%{
+                color: yellow;
+                transform: rotateX(270deg);
+            }
+
+            100%{
+                color: palevioletred;
+                transform: rotateX(360deg);
+            } */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>ANUNAY SINGH</h2>
+    </div>
+</body>
+</html>
