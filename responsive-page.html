@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="stylesheet" href="./styles.css"> -->
+    <style>
+        /* css code goes here */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Karla", sans-serif;
+            background-color: black;
+        }
+
+        .container {
+            border: 1px solid black;
+            border-radius: 11px;
+            overflow: hidden;
+            height: 500px;
+            width: 60%;
+            margin: auto;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .community {
+            background-color: rgb(255, 253, 253);
+            height: 50%;
+            /* border-top-left-radius: 11px;
+            border-top-right-radius: 11px; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card-details {
+            display: flex;
+            height: 50%;
+        }
+
+        .card {
+            background-color: rgba(85, 145, 142, 0.698);
+            width: 50%;
+            /* border-bottom-left-radius: 11px; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .why-us {
+            background-color: rgb(15, 67, 66);
+            width: 50%;
+            /* border-bottom-right-radius: 11px; */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .community-header {
+            color: hsl(179, 62%, 43%);
+            padding-top: 30px;
+        }
+
+        .community-para1 {
+            color: hsl(71, 87%, 30%);
+            padding-top: 30px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .community-para2 {
+            color: hsl(218, 22%, 67%);
+            font-weight: 600;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        p.card-para1 span {
+            padding-right: 10px;
+            font-size: 30px;
+        }
+
+        h4.card-header {
+            margin-top: 30px;
+            color: hsl(204, 43%, 93%);
+            font-weight: 600;
+        }
+
+        p.card-para1 {
+            padding-top: 30px;
+            color: hsl(204, 43%, 93%);
+        }
+
+        p.card-para2 {
+            padding-top: 30px;
+            color: hsl(204, 43%, 93%);
+            margin-bottom: 10px;
+        }
+
+        div.card a {
+            background-color: hsl(71, 87%, 30%);
+            color: hsl(204, 43%, 93%);
+            font-size: 10px;
+            font-weight: 600;
+            text-decoration: none;
+            width: 50%;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .why-us-header {
+            margin-top: 20px;
+        }
+
+        .why-us-para1 {
+            margin-top: 20px;
+        }
+
+        div.why-us p {
+            font-size: 15px;
+            margin-bottom: 10px;
+            word-spacing: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div class="container">
+            <div class="community">
+                <h2 class="community-header">Join our community</h2>
+                <p class="community-para1">
+                    30-day, hassle-free monkey back gurarantee
+                </p>
+                <p class="community-para2">
+                    Gain access to our full library of tutorials along with expert code
+                    reviews. Perfect for any developers who are serious about honing
+                    their skills.
+                </p>
+            </div>
+            <div class="card-details">
+                <div class="card">
+                    <h4 class="card-header">Monthly Subscription</h4>
+                    <p class="card-para1"><span>$29</span>Per Month</p>
+                    <p class="card-para2">Full access for less than $1 a day.</p>
+                    <a href="#" class="btn btn-card">Sign Up</a>
+                </div>
+                <div class="why-us">
+                    <h4 class="why-us-header">Why Us</h4>
+                    <p class="why-us-para1">Tutorials by industry experts</p>
+                    <p class="why-us-para2">Peer & expert code review</p>
+                    <p class="why-us-para3">Coding exercises</p>
+                    <p class="why-us-para4">Access to our GitHub repos</p>
+                    <p class="why-us-para5">Community forum</p>
+                    <p class="why-us-para6">Flashcard decks</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
