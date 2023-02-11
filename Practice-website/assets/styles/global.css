@@ -1,0 +1,40 @@
+body {
+    overflow-x: hidden;
+}
+
+.bg-border {
+    background-color: #0e376c !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.btn-outline-success,
+.btn-primary {
+    color: white !important;
+    border-color: #0e376c !important;
+    background-color: #0e376c !important;
+}
+
+.fa-tasks {
+    font-size: 34px;
+    color: white;
+}
+
+.margin-top-section {
+    margin-top: 30px;
+}
+
+.padding-section {
+    padding: 0 !important;
+}
+
+.box-top {
+    margin-top: 10px;
+}
+
+.card-body {
+    height: 250px !important;
+    overflow: auto;
+}
